@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong Clone</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="./Ball.js" defer></script>
+    <script src="./script.js" defer type="module"></script>
+  </head>
+  <body>
+    <div class="lobby-full">More than 2 players cannot play this game</div>
+    <div class="score">
+      <div class="left">0</div>
+      <div class="right">0</div>
+    </div>
+    <div class="paddle left"></div>
+    <div class="paddle right"></div>
+    <div class="ball"></div>
+  </body>
+</html>
